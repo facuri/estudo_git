@@ -3,7 +3,17 @@ public class ClasseProjeto {
 
 	public static void main(String[] args) {
 		 
-		System.out.println("Fazendo alguns commits 2021");
+		int n, i;
+		n = 0;
+		
+		
+		for(i = 1; i <= 3; i++){
+			 n += i;
+			System.out.print(n + " ");
+			
+		}
+		
+		
 
 	}
 

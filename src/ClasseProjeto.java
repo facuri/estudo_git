@@ -3,15 +3,15 @@ public class ClasseProjeto {
 
 	public static void main(String[] args) {
 		 
-		int n, i;
+		int n, i = 1;
 		n = 0;
 		
-		//Laço de repetição For
-		for(i = 1; i <= 3; i++){
-			 n += i;
-			System.out.print(n + " ");
-			
-		}
+		//Laço de repetição While
+		while(i <= 3){
+			  n += i;
+			 System.out.print(n + " ");
+			 i++;
+			}
 		
 		
 

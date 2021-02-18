@@ -26,6 +26,7 @@ public class ClasseProjeto {
 		
 		System.out.println(mensagem);
 	}
+	//Este método void função de somar
 	public static void somar(){
 		int n1, n2, som;
 		n1 = 2;

@@ -12,9 +12,16 @@ public class ClasseProjeto {
 			 System.out.print(n + " ");
 			 i++;
 			}
+		System.out.println();
+		HelloWorld();
 		
 		
 
+	}
+	public static void HelloWorld(){
+		String mensagem = "Hello Git Hub!!";
+		
+		System.out.println(mensagem);
 	}
 
 }

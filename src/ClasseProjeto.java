@@ -14,14 +14,25 @@ public class ClasseProjeto {
 			}
 		System.out.println();
 		HelloWorld();
+		somar();
+		
 		
 		
 
 	}
+	//Este método void contém uma mensagem
 	public static void HelloWorld(){
 		String mensagem = "Hello Git Hub!!";
 		
 		System.out.println(mensagem);
+	}
+	public static void somar(){
+		int n1, n2, som;
+		n1 = 2;
+		n2 = 5;
+		som = 5 + 2;
+		
+		System.out.println("O resultado é: " + som);
 	}
 
 }

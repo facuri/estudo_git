@@ -1,8 +1,9 @@
+import java.util.Date;
 
 public class ClasseProjeto {
 
 	public static void main(String[] args) {
-		 
+		 Date dataCadastro;
 		int n, i = 1;
 		n = 0;
 		
